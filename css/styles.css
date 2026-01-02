@@ -84,9 +84,24 @@ body.ciencias #navegacao a#ciencias{
     float: left;
 }
 
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+    background: #f9f9f9 url(../images/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
 #primario{
     width: 270px;
-    background-color: blue;
     margin: 0 0 20px 195px;
     float: left;
 }
@@ -102,7 +117,6 @@ body.ciencias #navegacao a#ciencias{
 
 #secundario{
     width: 270px;
-    background-color: green;
     margin: 0 0 20px 15px;
     float: left;
 }
@@ -125,6 +139,32 @@ body.ciencias #navegacao a#ciencias{
     padding: 20px;
 }
 
+/*Formatação das imagens*/
+img.imagem-principal{
+    margin-top: 5px;
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/*Formatação dos cabeçalhos*/
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3{
+    background: #de003e;
+    color: #000;
+}
+
+/*Rodapé*/
 #rodape{
     width: 750px;
     margin: 0 auto;
@@ -136,4 +176,24 @@ h2{
     padding: 5px;
     background: #294c71;
     color: #fff;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    margin-top: 5px;
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
 }
